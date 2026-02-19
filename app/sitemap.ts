@@ -5,7 +5,7 @@ import categories from "@/data/categories.json"
 
 export default function sitemap(): MetadataRoute.Sitemap {
 
-  const baseUrl = "https://switchtoindia.in"
+  const baseUrl = "https://switchtoindia.vercel.app"
 
   const alternativePages = alternatives.map((alt: any) => ({
     url: `${baseUrl}/alternative/${alt.slug}`,
