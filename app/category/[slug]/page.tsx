@@ -1,9 +1,13 @@
 import categories from "@/data/categories.json";
 import products from "@/data/products.json";
-import FeaturedBrand from "@/components/FeaturedBrand";
+import Image from "next/image";
+import Link from "next/link";
 
-
-export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
 
   const category = categories.find((c: any) => c.slug === slug);
@@ -17,23 +21,46 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   );
 
   return (
-    <main className="p-10">
-      <h1 className="text-3xl font-bold mb-6">{category.name}</h1>
-      <FeaturedBrand />
+    <main className="max-w-5xl mx-auto p-8 space-y-8">
+      <h1 className="text-4xl font-bold">{category.name}</h1>
 
+      <p className="text-gray-600 max-w-2xl">
+        Explore Indian brands in this category. We verify ownership,
+        manufacturing and origin before recommending any product.
+      </p>
 
-      <div className="space-y-6">
+      <div className="grid md:grid-cols-2 gap-6">
         {categoryProducts.map((item: any, i: number) => (
-          <div key={i} className="border p-5 rounded-xl shadow">
-            <h2 className="text-xl font-semibold">{item.name}</h2>
-            <p className="text-gray-600 mb-3">Brand: {item.brand}</p>
+          <div
+            key={i}
+            className="border border-[var(--india-border)] bg-white rounded-2xl p-5 shadow-sm hover:shadow-md transition"
+          >
+            <div className="flex gap-5 items-center">
 
-            <a
-              href={`/product/${item.slug}`}
-              className="text-green-700 font-semibold"
-            >
-              View product →
-            </a>
+              {item.image && (
+                <Image
+                  src={item.image}
+                  alt={item.name}
+                  width={100}
+                  height={100}
+                  className="rounded-xl object-contain bg-[var(--india-light)] p-3"
+                />
+              )}
+
+              <div className="space-y-1">
+                <h2 className="text-xl font-semibold">{item.name}</h2>
+
+                <p className="text-sm text-gray-600">{item.tagline}</p>
+
+                <Link
+                  href={`/product/${item.slug}`}
+                  className="text-[var(--india-green)] font-semibold hover:underline"
+                >
+                  View details →
+                </Link>
+              </div>
+
+            </div>
           </div>
         ))}
       </div>
