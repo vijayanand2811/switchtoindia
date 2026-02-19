@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://switchtoindia.in/sitemap.xml',
+    sitemap: 'https://switchtoindia.vercel.app/sitemap.xml',
   }
 }
