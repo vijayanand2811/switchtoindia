@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "colgate-alternative-india",
+    "foreignBrand": "Colgate",
+    "category": "toothpaste",
+    "products": ["dabur-red-toothpaste", "vicco-vajradanti"]
+  },
+  {
+    "slug": "pepsodent-alternative-india",
+    "foreignBrand": "Pepsodent",
+    "category": "toothpaste",
+    "products": ["dabur-red-toothpaste", "vicco-vajradanti"]
+  },
+  {
+    "slug": "sensodyne-alternative-india",
+    "foreignBrand": "Sensodyne",
+    "category": "toothpaste",
+    "products": ["dabur-red-toothpaste", "vicco-vajradanti"]
+  },
+  {
+    "slug": "closeup-alternative-india",
+    "foreignBrand": "Closeup",
+    "category": "toothpaste",
+    "products": ["dabur-red-toothpaste", "vicco-vajradanti"]
+  }
+]

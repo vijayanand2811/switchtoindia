@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "dabur-red-toothpaste",
+    "name": "Dabur Red Toothpaste",
+    "brand": "Dabur",
+    "tagline": "Ayurvedic alternative to chemical toothpaste",
+    "benefits": ["Clove oil", "Fights gum pain", "Traditional formula"],
+    "image": "/products/dabur-red-toothpaste.jpg",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/",
+    "proof": ["Indian owned company", "Manufactured in India", "Ayurvedic brand established in India"]
+  },
+  {
+    "slug": "vicco-vajradanti",
+    "name": "Vicco Vajradanti",
+    "brand": "Vicco",
+    "tagline": "Classic Ayurvedic tooth protection",
+    "benefits": ["18 herbs", "No foaming chemicals", "Strengthens gums"],
+    "image": "/products/vicco-vajradanti.jpg",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/",
+    "proof": ["Indian family owned company", "Made in India manufacturing", "No foreign parent corporation"]
+  }
+]
