@@ -31,6 +31,19 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           Buy on Flipkart
         </a>
       </div>
+      <hr className="my-10" />
+
+<div>
+  <h3 className="text-xl font-semibold mb-3">Browse similar Indian brands</h3>
+
+  <a
+    href="/category/toothpaste"
+    className="text-[var(--india-green)] font-semibold hover:underline"
+  >
+    View all Indian toothpaste brands →
+  </a>
+</div>
+
     </main>
   );
 }
