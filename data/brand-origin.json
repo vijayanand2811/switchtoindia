@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "colgate",
+    "name": "Colgate",
+    "country": "United States",
+    "owner": "Colgate-Palmolive Company",
+    "founded": "1806",
+    "manufacturedInIndia": true,
+    "indianAlternative": "colgate-alternative-india",
+    "summary": "Colgate is an American multinational oral care brand owned by Colgate-Palmolive. Although many products are manufactured in India, the company ownership and profits belong to a foreign corporation."
+  },
+  {
+    "slug": "nike",
+    "name": "Nike",
+    "country": "United States",
+    "owner": "Nike Inc.",
+    "founded": "1964",
+    "manufacturedInIndia": false,
+    "indianAlternative": null,
+    "summary": "Nike is an American sportswear brand. Products sold in India are imported or manufactured in Asian factories outside Indian ownership."
+  },
+  {
+    "slug": "apple",
+    "name": "Apple",
+    "country": "United States",
+    "owner": "Apple Inc.",
+    "founded": "1976",
+    "manufacturedInIndia": true,
+    "indianAlternative": null,
+    "summary": "Apple is an American technology company. Some iPhones are assembled in India but the company remains foreign owned."
+  }
+]
