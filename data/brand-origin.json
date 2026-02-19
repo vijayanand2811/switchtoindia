@@ -28,5 +28,66 @@
     "manufacturedInIndia": true,
     "indianAlternative": null,
     "summary": "Apple is an American technology company. Some iPhones are assembled in India but the company remains foreign owned."
-  }
+  },
+{
+  "slug": "head-and-shoulders",
+  "name": "Head & Shoulders",
+  "country": "United States",
+  "owner": "Procter & Gamble",
+  "founded": "1961",
+  "manufacturedInIndia": true,
+  "indianAlternative": null,
+  "summary": "Head & Shoulders is an American anti-dandruff shampoo brand owned by Procter & Gamble. Products sold in India are manufactured locally but the brand is foreign owned."
+},
+{
+  "slug": "pantene",
+  "name": "Pantene",
+  "country": "United States",
+  "owner": "Procter & Gamble",
+  "founded": "1945",
+  "manufacturedInIndia": true,
+  "indianAlternative": null,
+  "summary": "Pantene is a global haircare brand owned by Procter & Gamble. Although widely sold in India, the company ownership and profits belong to a foreign corporation."
+},
+{
+  "slug": "dove",
+  "name": "Dove",
+  "country": "United Kingdom",
+  "owner": "Unilever",
+  "founded": "1957",
+  "manufacturedInIndia": true,
+  "indianAlternative": null,
+  "summary": "Dove is a personal care brand owned by Unilever, a multinational company headquartered in the UK. Many products are manufactured in India but the brand remains foreign owned."
+},
+{
+  "slug": "sunsilk",
+  "name": "Sunsilk",
+  "country": "United Kingdom",
+  "owner": "Unilever",
+  "founded": "1954",
+  "manufacturedInIndia": true,
+  "indianAlternative": null,
+  "summary": "Sunsilk is a haircare brand owned by Unilever. Though widely available and produced in India, it is not an Indian company."
+},
+{
+  "slug": "tresemme",
+  "name": "Tresemme",
+  "country": "United States",
+  "owner": "Unilever",
+  "founded": "1948",
+  "manufacturedInIndia": true,
+  "indianAlternative": null,
+  "summary": "Tresemme is an American-origin haircare brand owned by Unilever. Products sold in India are locally produced but profits go to a foreign parent company."
+},
+{
+  "slug": "garnier",
+  "name": "Garnier",
+  "country": "France",
+  "owner": "L'Oréal",
+  "founded": "1904",
+  "manufacturedInIndia": true,
+  "indianAlternative": null,
+  "summary": "Garnier is a French cosmetics and haircare brand owned by L'Oréal. Despite manufacturing in India, it remains a foreign brand."
+}
+
 ]

@@ -23,4 +23,177 @@
     "category": "toothpaste",
     "products": ["dabur-red-toothpaste", "vicco-vajradanti"]
   }
+  ,
+{
+  "slug": "head-shoulders-alternative-india",
+  "foreignBrand": "Head & Shoulders",
+  "products": [
+    "patanjali-kesh-kanti",
+    "himalaya-anti-dandruff",
+    "khadi-neem-shampoo"
+  ]
+},
+{
+  "slug": "pantene-alternative-india",
+  "foreignBrand": "Pantene",
+  "products": [
+    "wow-onion-black-seed",
+    "mamaearth-onion-shampoo",
+    "biotique-bio-kelp"
+  ]
+},
+{
+  "slug": "dove-shampoo-alternative-india",
+  "foreignBrand": "Dove Shampoo",
+  "products": [
+    "himalaya-protein-shampoo",
+    "khadi-amla-shampoo",
+    "biotique-green-apple"
+  ]
+},
+{
+  "slug": "clinic-plus-alternative-india",
+  "foreignBrand": "Clinic Plus",
+  "products": [
+    "chik-shampoo",
+    "meera-herbal-shampoo",
+    "nyle-naturals"
+  ]
+},
+{
+  "slug": "lux-soap-alternative-india",
+  "foreignBrand": "Lux",
+  "products": [
+    "medimix-ayurvedic-soap",
+    "margo-neem-soap",
+    "chandrika-soap"
+  ]
+},
+{
+  "slug": "pears-soap-alternative-india",
+  "foreignBrand": "Pears Soap",
+  "products": [
+    "khadi-honey-soap",
+    "himalaya-baby-soap",
+    "medimix-glycerine"
+  ]
+},
+{
+  "slug": "dove-soap-alternative-india",
+  "foreignBrand": "Dove Soap",
+  "products": [
+    "biotique-almond-soap",
+    "khadi-milk-saffron",
+    "vaadi-herbal-soap"
+  ]
+},
+{
+  "slug": "dettol-soap-alternative-india",
+  "foreignBrand": "Dettol Soap",
+  "products": [
+    "savlon-soap",
+    "ayush-neem-soap",
+    "medimix-classic"
+  ]
+},
+{
+  "slug": "head-and-shoulders-alternative-india",
+  "foreignBrand": "Head & Shoulders",
+  "products": [
+    "clinic-plus-strong",
+    "patanjali-kesh-kanti",
+    "himalaya-anti-dandruff"
+  ]
+},
+{
+  "slug": "pantene-alternative-india",
+  "foreignBrand": "Pantene",
+  "products": [
+    "biotique-bio-kelp",
+    "khadi-amla-shampoo",
+    "wow-onion-black-seed"
+  ]
+},
+
+
+  {
+    "slug": "dove-alternative-india",
+    "foreignBrand": "Dove",
+    "products": [
+      "medimix-ayurvedic-soap",
+      "margo-neem-soap",
+      "chandrika-ayurvedic-soap",
+      "santoor-sandal-soap",
+      "mysore-sandal-soap"
+    ]
+  },
+  {
+    "slug": "lux-alternative-india",
+    "foreignBrand": "Lux",
+    "products": [
+      "medimix-ayurvedic-soap",
+      "chandrika-soap",
+      "santoor-soap",
+      "hamam-neem-tulsi-soap",
+      "cinthol-lime-soap"
+    ]
+  },
+  {
+    "slug": "pears-alternative-india",
+    "foreignBrand": "Pears",
+    "products": [
+      "medimix-glycerin-soap",
+      "chandrika-soap",
+      "khadi-natural-soap",
+      "vaadi-herbals-soap"
+    ]
+  },
+  {
+    "slug": "head-and-shoulders-alternative-india",
+    "foreignBrand": "Head & Shoulders",
+    "products": [
+      "clinic-plus-shampoo",
+      "patanjali-kesh-kanti",
+      "himalaya-anti-dandruff-shampoo",
+      "khadi-amla-shampoo"
+    ]
+  },
+  {
+    "slug": "pantene-alternative-india",
+    "foreignBrand": "Pantene",
+    "products": [
+      "biotique-bio-kelp-shampoo",
+      "khadi-amla-shampoo",
+      "wow-onion-black-seed-shampoo",
+      "mamaearth-onion-shampoo"
+    ]
+  },
+  {
+    "slug": "colgate-alternative-india",
+    "foreignBrand": "Colgate",
+    "products": [
+      "dabur-red-toothpaste",
+      "vicco-vajradanti",
+      "meswak-toothpaste",
+      "patanjali-dant-kanti"
+    ]
+  },
+  {
+    "slug": "sensodyne-alternative-india",
+    "foreignBrand": "Sensodyne",
+    "products": [
+      "dabur-sensitive-toothpaste",
+      "vicco-vajradanti",
+      "meswak-sensitive"
+    ]
+  },
+  {
+    "slug": "closeup-alternative-india",
+    "foreignBrand": "Closeup",
+    "products": [
+      "dabur-red-gel",
+      "vicco-toothpaste",
+      "babool-toothpaste"
+    ]
+  }
 ]

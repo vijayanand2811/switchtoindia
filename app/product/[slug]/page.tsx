@@ -1,4 +1,5 @@
 import products from "@/data/products.json";
+import Image from "next/image";
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -10,40 +11,50 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   }
 
   return (
-    <main className="p-10 max-w-2xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
-      <p className="text-lg text-gray-600 mb-6">Brand: {product.brand}</p>
+    <main className="p-10 max-w-3xl mx-auto">
+      <div className="flex flex-col md:flex-row gap-8 items-center">
 
-      <div className="flex gap-4">
-        <a
-          href={product.amazon}
-          target="_blank"
-          className="bg-yellow-400 px-5 py-3 rounded-lg font-semibold"
-        >
-          Buy on Amazon
-        </a>
+        {product.image && (
+          <Image
+            src={product.image}
+            alt={product.name}
+            width={220}
+            height={220}
+            className="rounded-xl object-contain bg-[var(--india-light)] p-4"
+          />
+        )}
 
-        <a
-          href={product.flipkart}
-          target="_blank"
-          className="bg-blue-500 text-white px-5 py-3 rounded-lg font-semibold"
-        >
-          Buy on Flipkart
-        </a>
+        <div className="space-y-3">
+          <h1 className="text-3xl font-bold">{product.name}</h1>
+          <p className="text-lg text-gray-600">Brand: {product.brand}</p>
+
+          <div className="flex gap-4 mt-4">
+            <a
+              href={product.amazon}
+              target="_blank"
+              className="bg-[#ff9900] text-white px-5 py-3 rounded-lg font-semibold"
+            >
+              Buy on Amazon
+            </a>
+
+            <a
+              href={product.flipkart}
+              target="_blank"
+              className="bg-[#2874f0] text-white px-5 py-3 rounded-lg font-semibold"
+            >
+              Buy on Flipkart
+            </a>
+          </div>
+
+          {product.proof && (
+            <ul className="mt-4 text-sm text-gray-600 space-y-1">
+              {product.proof.map((p: string, idx: number) => (
+                <li key={idx}>✔ {p}</li>
+              ))}
+            </ul>
+          )}
+        </div>
       </div>
-      <hr className="my-10" />
-
-<div>
-  <h3 className="text-xl font-semibold mb-3">Browse similar Indian brands</h3>
-
-  <a
-    href="/category/toothpaste"
-    className="text-[var(--india-green)] font-semibold hover:underline"
-  >
-    View all Indian toothpaste brands →
-  </a>
-</div>
-
     </main>
   );
 }

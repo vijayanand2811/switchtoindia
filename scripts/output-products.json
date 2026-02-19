@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "medimix-ayurvedic-soap",
+    "name": "Medimix Ayurvedic Soap",
+    "brand": "Medimix",
+    "alternative": "dove-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "margo-neem-soap",
+    "name": "Margo Neem Soap",
+    "brand": "Margo",
+    "alternative": "dove-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "chandrika-ayurvedic-soap",
+    "name": "Chandrika Ayurvedic Soap",
+    "brand": "Chandrika",
+    "alternative": "dove-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "santoor-sandal-soap",
+    "name": "Santoor Sandal Soap",
+    "brand": "Santoor",
+    "alternative": "dove-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "mysore-sandal-soap",
+    "name": "Mysore Sandal Soap",
+    "brand": "Mysore Sandal",
+    "alternative": "dove-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "medimix-ayurvedic-soap",
+    "name": "Medimix Ayurvedic Soap",
+    "brand": "Medimix",
+    "alternative": "lux-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "chandrika-soap",
+    "name": "Chandrika Soap",
+    "brand": "Chandrika",
+    "alternative": "lux-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "santoor-soap",
+    "name": "Santoor Soap",
+    "brand": "Santoor",
+    "alternative": "lux-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "hamam-neem-tulsi-soap",
+    "name": "Hamam Neem Tulsi Soap",
+    "brand": "Hamam",
+    "alternative": "lux-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "cinthol-lime-soap",
+    "name": "Cinthol Lime Soap",
+    "brand": "Cinthol",
+    "alternative": "lux-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "medimix-glycerin-soap",
+    "name": "Medimix Glycerin Soap",
+    "brand": "Medimix",
+    "alternative": "pears-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "chandrika-soap",
+    "name": "Chandrika Soap",
+    "brand": "Chandrika",
+    "alternative": "pears-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "khadi-natural-soap",
+    "name": "Khadi Natural Soap",
+    "brand": "Khadi",
+    "alternative": "pears-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "vaadi-herbals-soap",
+    "name": "Vaadi Herbals Soap",
+    "brand": "Vaadi",
+    "alternative": "pears-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "clinic-plus-shampoo",
+    "name": "Clinic Plus Shampoo",
+    "brand": "Clinic Plus",
+    "alternative": "head-and-shoulders-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "patanjali-kesh-kanti",
+    "name": "Patanjali Kesh Kanti",
+    "brand": "Patanjali",
+    "alternative": "head-and-shoulders-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "himalaya-anti-dandruff-shampoo",
+    "name": "Himalaya Anti Dandruff Shampoo",
+    "brand": "Himalaya",
+    "alternative": "head-and-shoulders-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "khadi-amla-shampoo",
+    "name": "Khadi Amla Shampoo",
+    "brand": "Khadi",
+    "alternative": "head-and-shoulders-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "biotique-bio-kelp-shampoo",
+    "name": "Biotique Bio Kelp Shampoo",
+    "brand": "Biotique",
+    "alternative": "pantene-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "khadi-amla-shampoo",
+    "name": "Khadi Amla Shampoo",
+    "brand": "Khadi",
+    "alternative": "pantene-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "wow-onion-black-seed-shampoo",
+    "name": "WOW Onion Black Seed Shampoo",
+    "brand": "WOW",
+    "alternative": "pantene-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "mamaearth-onion-shampoo",
+    "name": "Mamaearth Onion Shampoo",
+    "brand": "Mamaearth",
+    "alternative": "pantene-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "dabur-red-toothpaste",
+    "name": "Dabur Red Toothpaste",
+    "brand": "Dabur",
+    "alternative": "colgate-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "vicco-vajradanti",
+    "name": "Vicco Vajradanti",
+    "brand": "Vicco",
+    "alternative": "colgate-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "meswak-toothpaste",
+    "name": "Meswak Toothpaste",
+    "brand": "Dabur",
+    "alternative": "colgate-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "patanjali-dant-kanti",
+    "name": "Patanjali Dant Kanti",
+    "brand": "Patanjali",
+    "alternative": "colgate-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "dabur-sensitive-toothpaste",
+    "name": "Dabur Sensitive Toothpaste",
+    "brand": "Dabur",
+    "alternative": "sensodyne-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "vicco-vajradanti",
+    "name": "Vicco Vajradanti",
+    "brand": "Vicco",
+    "alternative": "sensodyne-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "meswak-sensitive",
+    "name": "Meswak Sensitive",
+    "brand": "Dabur",
+    "alternative": "sensodyne-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "dabur-red-gel",
+    "name": "Dabur Red Gel",
+    "brand": "Dabur",
+    "alternative": "closeup-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "vicco-toothpaste",
+    "name": "Vicco Toothpaste",
+    "brand": "Vicco",
+    "alternative": "closeup-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  },
+  {
+    "slug": "babool-toothpaste",
+    "name": "Babool Toothpaste",
+    "brand": "Dabur",
+    "alternative": "closeup-alternative-india",
+    "image": "",
+    "amazon": "https://www.amazon.in/",
+    "flipkart": "https://www.flipkart.com/"
+  }
+]
