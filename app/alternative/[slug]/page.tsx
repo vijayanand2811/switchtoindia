@@ -1,8 +1,25 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import alternatives from "@/data/alternatives.json";
 import products from "@/data/products.json";
 import comparison from "@/data/comparisons/colgate.json"; // <-- NEW
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const alt = alternatives.find((a: any) => a.slug === slug);
+
+  if (!alt) return {};
+
+  return {
+    title: `Best Indian Alternative to ${alt.foreignBrand} (2026)`,
+    description: `Looking for Indian alternatives to ${alt.foreignBrand}? See verified Indian brands you can buy instead.`,
+  };
+}
+
 export async function generateStaticParams() {
   return alternatives.map((alt: any) => ({
     slug: alt.slug,
@@ -63,6 +80,16 @@ const faqSchema = {
       <h1 className="text-3xl font-bold mb-6">
         Best Indian alternatives to {alt.foreignBrand}
       </h1>
+      <p className="mb-6 text-gray-600">
+  Want to know whether {alt.foreignBrand} is an Indian company?{" "}
+  <a
+    href={`/brand/${alt.foreignBrand.toLowerCase()}`}
+    className="text-[var(--india-green)] font-semibold hover:underline"
+  >
+    Read brand origin →
+  </a>
+</p>
+
 
       <div className="mb-10 max-w-2xl text-gray-600 text-lg leading-relaxed">
         <p>
