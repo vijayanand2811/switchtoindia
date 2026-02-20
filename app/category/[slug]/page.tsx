@@ -3,12 +3,12 @@ import products from "@/data/products.json";
 import Image from "next/image";
 import Link from "next/link";
 
-export default async function Page({
+export default function Page({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }) {
-  const { slug } = await params;
+  const { slug } = params;
 
   const category = categories.find((c: any) => c.slug === slug);
 
