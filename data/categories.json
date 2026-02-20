@@ -1,19 +1,7 @@
 [
-  {
-    "slug": "toothpaste",
-    "name": "Indian Toothpaste Brands",
-    "products": [
-      "dabur-red-toothpaste",
-      "vicco-vajradanti"
-    ]
-  },
-  {
-    "slug": "shampoo",
-    "name": "Indian Shampoo Brands",
-    "products": [
-      "himalaya-anti-dandruff-shampoo",
-      "khadi-natural-amla-shampoo",
-      "mamaearth-onion-shampoo"
-    ]
-  }
+  { "slug": "toothpaste", "name": "Toothpaste" },
+  { "slug": "soap", "name": "Soap" },
+  { "slug": "shampoo", "name": "Shampoo" },
+  { "slug": "shoes", "name": "Shoes" },
+  { "slug": "clothing", "name": "Clothing" }
 ]
