@@ -17,8 +17,8 @@ export default async function Page({
   }
 
   const categoryProducts = products.filter((p: any) =>
-    category.products.includes(p.slug)
-  );
+  p.category === category.slug
+);
 
   return (
     <main className="max-w-5xl mx-auto p-8 space-y-8">
