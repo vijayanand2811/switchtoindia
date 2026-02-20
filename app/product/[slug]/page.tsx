@@ -11,50 +11,51 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   }
 
   return (
-    <main className="p-10 max-w-3xl mx-auto">
-      <div className="flex flex-col md:flex-row gap-8 items-center">
+    <main className="max-w-3xl mx-auto py-10">
 
-        {product.image && (
-          <Image
-            src={product.image}
-            alt={product.name}
-            width={220}
-            height={220}
-            className="rounded-xl object-contain bg-[var(--india-light)] p-4"
-          />
-        )}
+  <h1 className="text-3xl font-bold mb-2">{product.name}</h1>
 
-        <div className="space-y-3">
-          <h1 className="text-3xl font-bold">{product.name}</h1>
-          <p className="text-lg text-gray-600">Brand: {product.brand}</p>
+  <p className="text-gray-600 mb-6">
+    Brand: <span className="font-medium">{product.brand}</span>
+  </p>
 
-          <div className="flex gap-4 mt-4">
-            <a
-              href={product.amazon}
-              target="_blank"
-              className="bg-[#ff9900] text-white px-5 py-3 rounded-lg font-semibold"
-            >
-              Buy on Amazon
-            </a>
+  <p className="mb-6 text-gray-700 leading-relaxed">
+    This product is an Indian brand alternative available in India.
+    Many consumers prefer locally manufactured products for accessibility,
+    pricing stability and supporting domestic companies.
+  </p>
 
-            <a
-              href={product.flipkart}
-              target="_blank"
-              className="bg-[#2874f0] text-white px-5 py-3 rounded-lg font-semibold"
-            >
-              Buy on Flipkart
-            </a>
-          </div>
+  <div className="flex flex-col sm:flex-row gap-4 mb-10">
+    <a
+      href={product.amazon}
+      target="_blank"
+      className="bg-[#ff9900] text-white px-6 py-3 rounded-lg font-semibold text-center"
+    >
+      Buy on Amazon
+    </a>
 
-          {product.proof && (
-            <ul className="mt-4 text-sm text-gray-600 space-y-1">
-              {product.proof.map((p: string, idx: number) => (
-                <li key={idx}>✔ {p}</li>
-              ))}
-            </ul>
-          )}
-        </div>
-      </div>
-    </main>
+    <a
+      href={product.flipkart}
+      target="_blank"
+      className="bg-[#2874f0] text-white px-6 py-3 rounded-lg font-semibold text-center"
+    >
+      Buy on Flipkart
+    </a>
+  </div>
+
+  <hr className="my-10" />
+
+  <div>
+    <h2 className="text-xl font-semibold mb-3">Looking for alternatives?</h2>
+
+    <a
+      href={`/alternative/${product.alternative}`}
+      className="text-[var(--india-green)] font-semibold hover:underline"
+    >
+      View all related alternatives →
+    </a>
+  </div>
+
+</main>
   );
 }
